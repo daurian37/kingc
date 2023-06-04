@@ -1,36 +1,35 @@
 <?php
 
-// app/Http/Controllers/ContactController.php
-
 namespace App\Http\Controllers;
 
 use App\Mail\ContactFormMail;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 
+
 class ContactController extends Controller
 {
-    public function showContactForm()
+    // Afficher le formulaire de contact
+    public function show()
     {
-        return view('contact.contact');
+        return view('contact');
     }
 
-    public function submitContactForm(Request $request)
+    // Soumettre le formulaire de contact
+    public function submit(Request $request)
     {
-        $request->validate([
-            'name' => 'required',
+        // Valider les données du formulaire
+        $validatedData = $request->validate([
+            'nom' => 'required',
+            'phone' => 'required',
             'email' => 'required|email',
             'message' => 'required',
         ]);
 
-        $name = $request->input('name');
-        $email = $request->input('email');
-        $message = $request->input('message');
+        // Envoyer l'e-mail
+        Mail::to('dv.balenvokolo@gmail.com')->send(new ContactFormMail($validatedData));
 
-        // Envoyer l'e-mail en utilisant le mailable
-        Mail::to('dv.balenvokolo@gmail.com')->send(new ContactFormMail($name, $email, $message));
-
-        return redirect()->back()->with('success', 'Votre message a été envoyé avec succès ! Nous vous répondrons bientôt.');
+        // Rediriger l'utilisateur après l'envoi du formulaire
+        return redirect('contact')->back()->with('success', 'Votre message a été envoyé avec succès !');
     }
 }
-

@@ -18,7 +18,7 @@
                                  <div class="build_box">
                                     <h1>KING'S CONSTRUCTION</h1>
                                     <p>Innovation et excellence pour construire votre rêve</p>
-                                    <a class="read_more conatct_btn" href="#contact" role="button">Nous contacter</a>
+                                    <a class="read_more conatct_btn" href="{{ route('contact') }}" role="button">Nous contacter</a>
                                  </div>
                               </div>
                            </div>
@@ -33,7 +33,7 @@
                                  <div class="build_box">
                                     <h1>KING'S CONSTRUCTION</h1>
                                     <p>Innovation et excellence pour construire votre rêve</p>
-                                    <a class="read_more conatct_btn" href="#contact" role="button">Nous contacter</a>
+                                    <a class="read_more conatct_btn" href="{{ route('contact') }}" role="button">Nous contacter</a>
                                  </div>
                               </div>
                            </div>
@@ -48,7 +48,7 @@
                                  <div class="build_box">
                                     <h1>KING'S CONSTRUCTION</h1>
                                     <p>Innovation et excellence pour construire votre rêve</p>
-                                    <a class="read_more conatct_btn" href="#contact" role="button">Nous contacter</a>
+                                    <a class="read_more conatct_btn" href="{{ route('contact') }}" role="button">Nous contacter</a>
                                  </div>
                               </div>
                            </div>
@@ -415,49 +415,7 @@
          </div>
       </div>
       <!-- end staff -->
-      <!--  contact -->
-      <div class="contact" id="contact">
-         <div class="container">
-            <div class="row">
-               <div class="col-md-12">
-                  <div class="titlepage">
-                     <h2>Nous contacter</h2>
-                  </div>
-               </div>
-            </div>
-            <div class="row">
-               <div class="col-md-6 padding_right0">
-                  <form id="request" class="main_form">
-                     <div class="row">
-                        <div class="col-md-12 ">
-                           <input class="contactus" placeholder="Nom" type="type" name="Nom"> 
-                        </div>
-                        <div class="col-md-12">
-                           <input class="contactus" placeholder="Phone" type="type" name="Phone">                          
-                        </div>
-                        <div class="col-md-12">
-                           <input class="contactus" placeholder="Email" type="type" name="Email"> 
-                        </div>
-                        <div class="col-md-12">
-                           <textarea class="textarea" placeholder="Message" type="type" Message="Name">Message</textarea>
-                        </div>
-                        <div class="col-md-12">
-                           <button class="send_btn">Valider</button>
-                        </div>
-                     </div>
-                  </form>
-               </div>
-               <div class="col-md-6 padding_left0">
-                  <div class="map_main">
-                     <div class="map-responsive">
-                        <img src="{{asset('assets/images/logo_2.jpeg')}}" style="height:500px;" alt="#"/>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-      <!-- end contact -->
+      
       <div class="truck">
          <div class="container-fluid">
             <div class="row">

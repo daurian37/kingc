@@ -99,7 +99,7 @@
                                           <a class="nav-link" href="/#realisation">Nos réalisations</a>
                                        </li>
                                        <li class="nav-item">
-                                          <a class="nav-link" href="/#contact">Nous contacter</a>
+                                          <a class="nav-link" href="{{ route('contact') }}">Nous contacter</a>
                                        </li>
                                     </ul>
                                  </div>                               
@@ -120,7 +120,7 @@
             <div class="row">
                <div class="col-md-12">
                   <div class="title">
-                     <h2>A propos</h2>
+                     <h2>Nous contacter</h2>
                   </div>
                </div>
             </div>

@@ -99,7 +99,7 @@
                                           <a class="nav-link" href="/#realisation">Nos réalisations</a>
                                        </li>
                                        <li class="nav-item">
-                                          <a class="nav-link" href="/#contact">Nous contacter</a>
+                                          <a class="nav-link active" href="{{ route('contact') }}">Nous contacter</a>
                                        </li>
                                     </ul>
                                  </div>                               

@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
    <head>
@@ -73,7 +74,7 @@
                               <div class="full">
                                  <div class="center-desk">
                                     <div class="logo">
-                                       <a href="/">LOGO</a>
+                                       <a href="index.html">LOGO</a>
                                     </div>
                                  </div>
                               </div>
@@ -92,14 +93,14 @@
                                           <a class="nav-link" href="{{ route('about') }}">A propos</a>
                                        </li>
                                        <li class="nav-item">
-                                          <a class="nav-link" href="#service">Nos services</a>
+                                          <a class="nav-link" href="/#service">Nos services</a>
                                        </li>
                                        
                                        <li class="nav-item">
-                                          <a class="nav-link" href="#realisation">Nos réalisations</a>
+                                          <a class="nav-link" href="/#realisation">Nos réalisations</a>
                                        </li>
                                        <li class="nav-item">
-                                          <a class="nav-link active" href="{{ route('contact') }}">Nous contacter</a>
+                                          <a class="nav-link" href="{{ route('contact') }}">Nous contacter</a>
                                        </li>
                                     </ul>
                                  </div>                               
@@ -113,3 +114,84 @@
          </div>
          <!-- end header inner -->
          <!-- end header -->
+
+
+   <div class="back_re">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="title">
+                     <h2>Nous contacter</h2>
+                  </div>
+               </div>
+            </div>
+         </div>
+    </div>
+
+      <!-- about -->
+      <div class="about">
+         <div class="container-fluid">
+            <div class="row d_flex">
+               <div class="col-md-7">
+                <div class="container">
+
+                  <form id="request" class="main_form" method="POST" action="{{ route('contact') }}">
+                        @csrf
+                     <div class="row">
+                        <div class="col-md-12 ">
+                           <input class="contactus" placeholder="Nom" id="nom" required type="text" name="nom"> 
+                        </div>
+                        <div class="col-md-12">
+                           <input class="contactus" placeholder="Téléphone" required id="phone" type="phone" name="Phone">                          
+                        </div>
+                        <div class="col-md-12">
+                           <input class="contactus" placeholder="Email" id="email" type="email" name="email"> 
+                        </div>
+                        <div class="col-md-12">
+                           <textarea class="textarea" required placeholder="Message" id="message" type="text" name="message">Message</textarea>
+                        </div>
+                        <div class="col-md-12">
+                           <button class="send_btn" type="submit">Envoyer</button>
+                        </div>
+                     </div>
+                  </form>
+                </div>
+               </div>
+
+               <div class="col-md-5">
+                  <div class="about_img">
+                     <figure><img src="{{asset('assets/images/logo_2.jpeg')}}" style="height:500px;" alt="#"/></figure>
+                  </div>
+               </div>
+
+            </div>
+         </div>
+
+      <div class="truck">
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-md-6 jkhgkj">
+                  <div class="truck_img1">
+                     <img src="{{asset('assets/images/truck.png')}}" alt="#"/>
+                  </div>
+               </div>
+               <div class="col-md-6">
+                  <div class="truck_img1">
+                     <img src="{{asset('assets/images/jcb.png')}}" alt="#"/>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>    
+
+
+      </div>
+    </div>
+
+      <!-- end about -->
+
+
+  
+@include('partials.footer')
+
+
