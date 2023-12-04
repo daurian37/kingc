@@ -182,9 +182,10 @@
                                              <figure><img src="{{asset('assets/images/project_img.png')}}" alt="#"/></figure>
                                           </div>
                                           <div id="pro_ho" class="project_text">
-                                             <h3>Reader will be<br> distracted by the readable</h3>
-                                             <p>There are many variations of passages of Lorem Ipsum 
-                                                available, but the majority have suffered alteration in some form, by injected humour, or randomised</p>
+                                             <h3>Travaux Publics<br> </h3>
+                                             <p>Construction d'infrastructures routières.
+                                                Aménagement de zones publiques (places, parcs, etc.).
+                                                Travaux de terrassement et de nivellement.</p>
                                           </div>
                                        </div>
                                     </div>
@@ -194,9 +195,10 @@
                                              <figure><img src="{{asset('assets/images/project_img1.png')}}" alt="#"/></figure>
                                           </div>
                                           <div id="pro_ho" class="project_text">
-                                             <h3>Reader will be<br> distracted by the readable</h3>
-                                             <p>There are many variations of passages of Lorem Ipsum available,
-                                                 but the majority have suffered alteration in some form, by injected humour, or randomised</p>
+                                             <h3>Rénovation<br></h3>
+                                             <p>Rénovation de bâtiments anciens.
+                                             Restauration de structures historiques.
+                                             Remise en état de bâtiments endommagés.</p>
                                           </div>
                                        </div>
                                     </div>
@@ -206,8 +208,9 @@
                                              <figure><img src="{{asset('assets/images/project_img2.png')}}" alt="#"/></figure>
                                           </div>
                                           <div id="pro_ho" class="project_text">
-                                             <h3>Reader will be<br> distracted by the readable</h3>
-                                             <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised</p>
+                                          <h3>Génie Civil<br></h3>
+                                             <p>Conception et construction d'ouvrages d'art (ponts, tunnels, etc.).
+                                                Ouvrages hydrauliques (barrages, canalisations, etc.).</p>
                                           </div>
                                        </div>
                                     </div>
@@ -215,88 +218,8 @@
                               </div>
                            </div>
                         </div>
-                        <div class="carousel-item">
-                           <div class="container-fluid">
-                              <div class="carousel-caption relative3">
-                                 <div class="row">
-                                    <div class="col-md-4">
-                                       <div class="project">
-                                          <div class="project_img">
-                                             <figure><img src="{{asset('assets/images/project_img.png')}}" alt="#"/></figure>
-                                          </div>
-                                          <div id="pro_ho" class="project_text">
-                                             <h3>Reader will be<br> distracted by the readable</h3>
-                                             <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised</p>
-                                          </div>
-                                       </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                       <div class="project">
-                                          <div class="project_img">
-                                             <figure><img src="{{asset('assets/images/project_img2.png')}}" alt="#"/></figure>
-                                          </div>
-                                          <div id="pro_ho" class="project_text">
-                                             <h3>Reader will be<br> distracted by the readable</h3>
-                                             <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised</p>
-                                          </div>
-                                       </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                       <div class="project">
-                                          <div class="project_img">
-                                             <figure><img src="{{asset('assets/images/project_img1.png')}}" alt="#"/></figure>
-                                          </div>
-                                          <div id="pro_ho" class="project_text">
-                                             <h3>Reader will be<br> distracted by the readable</h3>
-                                             <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised</p>
-                                          </div>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="carousel-item">
-                           <div class="container-fluid">
-                              <div class="carousel-caption relative3">
-                                 <div class="row">
-                                    <div class="col-md-4">
-                                       <div class="project">
-                                          <div class="project_img">
-                                             <figure><img src="{{asset('assets/images/project_img2.png')}}" alt="#"/></figure>
-                                          </div>
-                                          <div id="pro_ho" class="project_text">
-                                             <h3>Reader will be<br> distracted by the readable</h3>
-                                             <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised</p>
-                                          </div>
-                                       </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                       <div class="project">
-                                          <div class="project_img">
-                                             <figure><img src="{{asset('assets/images/project_img.png')}}" alt="#"/></figure>
-                                          </div>
-                                          <div id="pro_ho" class="project_text">
-                                             <h3>Reader will be<br> distracted by the readable</h3>
-                                             <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised</p>
-                                          </div>
-                                       </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                       <div class="project">
-                                          <div class="project_img">
-                                             <figure><img src="{{asset('assets/images/project_img1.png')}}" alt="#"/></figure>
-                                          </div>
-                                          <div id="pro_ho" class="project_text">
-                                             <h3>Reader will be<br> distracted by the readable</h3>
-                                             <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised</p>
-                                          </div>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
+                        
+                       
                         <a class="carousel-control-prev" href="#proj" role="button" data-slide="prev">
                         <i class="fa fa-arrow-left" aria-hidden="true"></i>
                         <span class="sr-only">Previous</span>
@@ -359,7 +282,7 @@
                         <i><img src="{{asset('assets/images/man.png')}}" alt="#"/></i>
                      </div>
                      <div class="social_icon_main">
-                        <h4>Available</h4>
+                        <h4>Daurian</h4>
                         <ul class="social_icon_staff text_align_center  ">
                            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
@@ -375,7 +298,7 @@
                         <i><img src="{{asset('assets/images/man.png')}}" alt="#"/></i>
                      </div>
                      <div class="social_icon_main">
-                        <h4>Available</h4>
+                        <h4>Loic</h4>
                         <ul class="social_icon_staff text_align_center  ">
                            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
@@ -391,7 +314,7 @@
                         <i><img src="{{asset('assets/images/man.png')}}" alt="#"/></i>
                      </div>
                      <div class="social_icon_main">
-                        <h4>Available</h4>
+                        <h4>Cherley</h4>
                         <ul class="social_icon_staff text_align_center  ">
                            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
@@ -407,7 +330,7 @@
                         <i><img src="{{asset('assets/images/man.png')}}" alt="#"/></i>
                      </div>
                      <div class="social_icon_main">
-                        <h4>Available</h4>
+                        <h4>Dylan</h4>
                         <ul class="social_icon_staff text_align_center  ">
                            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>

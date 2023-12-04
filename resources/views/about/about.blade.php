@@ -143,7 +143,7 @@
 
                <div class="col-md-5">
                   <div class="about_img">
-                     <figure><img src="{{asset('assets/images/about.png')}}" alt="#"/></figure>
+                     <figure><img src="{{asset('../assets/images/about.png')}}" alt="about"/></figure>
                   </div>
                </div>
 
@@ -155,12 +155,12 @@
             <div class="row">
                <div class="col-md-6 jkhgkj">
                   <div class="truck_img1">
-                     <img src="{{asset('assets/images/truck.png')}}" alt="#"/>
+                     <img src="{{asset('assets/images/truck.png')}}" alt="truck"/>
                   </div>
                </div>
                <div class="col-md-6">
                   <div class="truck_img1">
-                     <img src="{{asset('assets/images/jcb.png')}}" alt="#"/>
+                     <img src="{{asset('assets/images/jcb.png')}}" alt="jbc"/>
                   </div>
                </div>
             </div>

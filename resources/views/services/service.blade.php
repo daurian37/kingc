@@ -149,7 +149,7 @@
 
                             <div class="col-md-5">
                                 <div class="about_img">
-                                    <figure><img src="assets/images/{{ $service->image }}" alt="#"/></figure>
+                                    <figure><img src="{{asset('../assets/images/about.png')}}" alt="about"/></figure>
                                 </div>
                             </div>
 
