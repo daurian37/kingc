@@ -4,9 +4,10 @@
             <div class="container">
                <div class="row">
                   <div class=" col-lg-3 col-md-6">
-                     <a class="logo_bottom"><img src="{{asset('assets/images/logo_bottom.png')}}" alt="#"/></a>
+                     <!--a class="logo_bottom"><img src="{{asset('assets/images/logo_bottom.png')}}" alt="#"/></a-->
                      <p class="many">
-                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humou
+                    Nous offrons une gamme diversifiée de services liés à la construction, 
+                    la rénovation, l'entretien et la gestion de projets de construction.
                      </p>
                   </div>
                   <div class="col-lg-2 offset-lg-2 col-md-6">

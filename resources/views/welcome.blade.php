@@ -101,7 +101,8 @@
                <div class="col-md-7">
                   <div class="titlepage">
                      <h2>A propos de nous</h2>
-                     <span>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomisedThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised</span>
+                     <span>Nous offrons une gamme diversifiée de services liés à la construction, 
+                    la rénovation, l'entretien et la gestion de projets de construction.</span>
                      <a class="read_more" href="{{route('about')}}"> Lire plus</a>
                   </div>
                </div>
@@ -156,7 +157,9 @@
                <div class="col-md-12">
                   <div class="titlepage">
                      <h2>Nos réalisations</h2>
-                     <span>It is a long established fact that a reader will be distracted by the readable</span>
+                     <span>Notre agence de BTP s'enorgueillit de ses nombreuses
+                         réalisations qui témoignent de notre engagement envers 
+                         l'excellence et de notre expertise dans le domaine de la construction</span>
                   </div>
                </div>
             </div>
@@ -180,7 +183,8 @@
                                           </div>
                                           <div id="pro_ho" class="project_text">
                                              <h3>Reader will be<br> distracted by the readable</h3>
-                                             <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised</p>
+                                             <p>There are many variations of passages of Lorem Ipsum 
+                                                available, but the majority have suffered alteration in some form, by injected humour, or randomised</p>
                                           </div>
                                        </div>
                                     </div>
@@ -191,7 +195,8 @@
                                           </div>
                                           <div id="pro_ho" class="project_text">
                                              <h3>Reader will be<br> distracted by the readable</h3>
-                                             <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised</p>
+                                             <p>There are many variations of passages of Lorem Ipsum available,
+                                                 but the majority have suffered alteration in some form, by injected humour, or randomised</p>
                                           </div>
                                        </div>
                                     </div>
@@ -343,7 +348,9 @@
                <div class="col-md-12">
                   <div class="titlepage">
                      <h2>Notre équipe</h2>
-                     <span>There are many variations of passages of Lorem Ipsum available, but the </span>
+                     <span>Notre équipe constitue le pilier essentiel de notre agence de BTP, 
+                        apportant une expertise diversifiée et un engagement inébranlable
+                         à chaque projet que nous entreprenons </span>
                   </div>
                </div>
                <div class="col-md-3 col-sm-6">

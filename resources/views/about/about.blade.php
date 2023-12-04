@@ -135,7 +135,8 @@
 
                   <div class="titlepage">
                      <h2>A propos de King Construction</h2>
-                     <span>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomisedThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised</span>
+                     <span>Nous offrons une gamme diversifiée de services liés à la construction, 
+                    la rénovation, l'entretien et la gestion de projets de construction.</span>
                     
                   </div>
                </div>
